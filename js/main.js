@@ -58,8 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Return to the Valley of Peace\nWhere your journey first began\nTo watch our cherished memories\nHand in hand.";
     } else {
       prophecyText.textContent =
-        "Embark to Thermea's embrace\nLet tranquility be your goal\nUnlock the secret of Kung Fu\nAllow peace to fill your soul.";
-      // "Be patient, young grasshopper.\nYour time is coming soon.";
+        "Be patient, young grasshopper.\nYour time is coming soon.";
     }
   }
 
