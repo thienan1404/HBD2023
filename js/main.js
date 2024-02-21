@@ -49,16 +49,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (currentTime >= 10 && currentTime < 14) {
       prophecyText.textContent =
-        "In snowy peaks\nWhere legends play\nGlide down the slopes\nIn a warrior's display";
+        "In snowy peaks\n\nWhere legends play\n\nGlide down the slopes\n\nIn a warrior's display";
     } else if (currentTime >= 14 && currentTime < 18) {
       prophecyText.textContent =
-        "Embark to Thermea's embrace\nLet tranquility be your goal\nUnlock the secret of Kung Fu\nAllow peace to fill your soul.";
+        "Embark to\nThermea's embrace\n\nLet tranquility\nbe your goal\n\nUnlock the secret\nof Kung Fu\n\nAllow peace to\nfill your soul.";
     } else if (currentTime >= 18 && currentTime < 24) {
       prophecyText.textContent =
-        "Return to the Valley of Peace\nWhere your journey first began\nTo watch our cherished memories\nHand in hand.";
+        "Return to the\nValley of Peace\n\nWhere your journey\nfirst began\n\nTo watch our\ncherished memories\n\nHand in hand.";
     } else {
       prophecyText.textContent =
-        "Be patient, young grasshopper.\nYour time is coming soon.";
+        "Be patient,\nyoung grasshopper.\n\nYour time is\ncoming soon.";
     }
   }
 
