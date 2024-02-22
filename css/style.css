@@ -23,6 +23,7 @@ section {
 
   /* Scroll Snap */
   scroll-snap-align: center;
+  scroll-snap-stop: none;
 }
 
 #home {
