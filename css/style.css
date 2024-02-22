@@ -54,6 +54,7 @@ section#scrollView {
   width: 70%;
   height: 70%;
   margin: auto;
+  background-color: black;
 }
 
 #scrollView a {
