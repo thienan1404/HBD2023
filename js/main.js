@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const scrollViewSection = document.querySelector("#scrollView");
   const scrollViewVideo = document.querySelector("#scrollViewVideo");
   const prophecyText = document.querySelector("#prophecyText");
+  const linkElement = document.querySelector("#scrollView a");
 
   const options = {
     root: null,
@@ -50,15 +51,19 @@ document.addEventListener("DOMContentLoaded", function () {
     if (currentTime >= 10 && currentTime < 14) {
       prophecyText.textContent =
         "In snowy peaks\n\nWhere legends play\n\nGlide down the slopes\n\nIn a warrior's display";
+      linkElement.href = "https://maps.app.goo.gl/6zi691knfVXVt5eE9";
     } else if (currentTime >= 14 && currentTime < 18) {
       prophecyText.textContent =
-        "Embark to\nThermea's embrace\n\nLet tranquility\nbe your goal\n\nUnlock the secret\nof Kung Fu\n\nAllow peace to\nfill your soul.";
+        "Embark to\nThermea's embrace\n\nLet tranquility\nbe your goal\n\nUnlock the secret\nof Kung Fu\n\nAllow peace to\nfill your soul";
+      linkElement.href = "https://www.youtube.com/watch?v=y7I6s2L65Yo&t=20s";
     } else if (currentTime >= 18 && currentTime < 24) {
       prophecyText.textContent =
-        "Return to the\nValley of Peace\n\nWhere your journey\nfirst began\n\nTo watch our\ncherished memories\n\nHand in hand.";
+        "Return to the\nValley of Peace\n\nWhere your journey\nfirst began\n\nTo watch our\ncherished memories\n\nHand in hand";
+      linkElement.href = "https://www.youtube.com/watch?v=EzU0ofo3jOs";
     } else {
       prophecyText.textContent =
         "Be patient,\nyoung grasshopper.\n\nYour time is\ncoming soon.";
+      linkElement.removeAttribute("href");
     }
   }
 

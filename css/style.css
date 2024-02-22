@@ -56,6 +56,12 @@ section#scrollView {
   margin: auto;
 }
 
+#scrollView a {
+  color: inherit;
+  text-decoration: none;
+  display: contents;
+}
+
 #scrollViewVideo {
   width: 100%;
   height: 100%;
