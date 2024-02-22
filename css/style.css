@@ -39,6 +39,7 @@ section {
   font-weight: light;
   font-size: 15px;
   color: #742611;
+  width: 50%;
 }
 
 section#scrollView {
