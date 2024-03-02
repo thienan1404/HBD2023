@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function updateProphecyText() {
     const currentTime = new Date().getHours();
 
-    if (currentTime >= 10 && currentTime < 14) {
+    if (currentTime >= 8 && currentTime < 14) {
       prophecyText.textContent =
         "In snowy peaks\n\nWhere legends play\n\nGlide down the slopes\n\nIn a warrior's display";
       linkElement.href = "https://maps.app.goo.gl/6zi691knfVXVt5eE9";
